@@ -629,3 +629,25 @@ input.input100 {
     width: 100%;
   }
 }
+
+a.typeform-share {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #ec0000;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 50px;
+  text-align: center;
+  margin: 0;
+  height: 50px;
+  padding: 0px 33px;
+  border-radius: 5px;
+  max-width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
