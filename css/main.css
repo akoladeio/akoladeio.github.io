@@ -1,6 +1,3 @@
-body {
-  font-family: Georgia;
-}
 .container {
   max-width: 1200px;
 }
@@ -169,8 +166,6 @@ input.input100 {
   height: 155px;
 }
 
-/*//////////////////////////////////////////////////////////////////
-[ Width ]*/
 .wsize1 {
   max-width: 650px;
 }
@@ -179,42 +174,23 @@ input.input100 {
   max-width: 380px;
 }
 
-/*//////////////////////////////////////////////////////////////////
-[ Height ]*/
 .hsize1 {
   min-height: 100vh;
 }
 
-/*//////////////////////////////////////////////////////////////////
-[ Background ]*/
-.bg0 {
+.bgicon {
   background-color: #fff;
 }
-.bg1 {
-  background-color: #57b846;
-}
-.bg3 {
-  background-color: #3b5998;
-}
-.bg4 {
-  background-color: #1da1f2;
-}
-.bg5 {
-  background-color: #cd201f;
-}
-.bgicon {
-  background-color: #cd201f;
-}
 
+.fa {
+  color: #bbb;
+}
 .bg-img1 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-/*//////////////////////////////////////////////////////////////////
-[ Border ]*/
-/*---------------------------------------------*/
 .bo1 {
   border: 1px solid #ebebeb;
 }
@@ -248,17 +224,6 @@ input.input100 {
   font-size: 22px;
   color: #fff;
 }
-.how1:hover {
-  background-color: #555555;
-  color: #fff;
-}
-
-.parallax100 {
-  background-attachment: fixed;
-  background-position: center 0;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 @media (max-width: 992px) {
   .parallax100 {
     background-attachment: inherit;
@@ -280,6 +245,7 @@ input.input100 {
 
 .overlay1 {
   overflow: hidden;
+  transition: background 1.5s linear;
 }
 
 .overlay1::before {
