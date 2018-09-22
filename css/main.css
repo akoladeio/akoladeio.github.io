@@ -2,92 +2,6 @@
   max-width: 1200px;
 }
 
-.contact100-form {
-  width: 100%;
-}
-
-.wrap-input100 {
-  width: 100%;
-  position: relative;
-  background-color: #fff;
-  height: 50px;
-  border: 2px solid #e6e6e6;
-  border-radius: 5px;
-}
-
-.input100 {
-  display: block;
-  width: 100%;
-  background: transparent;
-}
-
-input.input100 {
-  height: 100%;
-  padding: 0 22px 0 22px;
-}
-.validate-input {
-  position: relative;
-}
-
-.alert-validate::before {
-  content: attr(data-validate);
-  position: absolute;
-  max-width: 70%;
-  background-color: #fff;
-  border: 1px solid #c80000;
-  border-radius: 2px;
-  padding: 4px 25px 4px 10px;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -moz-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  -o-transform: translateY(-50%);
-  transform: translateY(-50%);
-  right: 12px;
-  pointer-events: none;
-
-  color: #c80000;
-  font-size: 14px;
-  line-height: 1.4;
-  text-align: left;
-
-  visibility: hidden;
-  opacity: 0;
-
-  -webkit-transition: opacity 0.4s;
-  -o-transition: opacity 0.4s;
-  -moz-transition: opacity 0.4s;
-  transition: opacity 0.4s;
-}
-
-.alert-validate::after {
-  content: "\f12a";
-  font-family: FontAwesome;
-  display: block;
-  position: absolute;
-  color: #c80000;
-  font-size: 18px;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -moz-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  -o-transform: translateY(-50%);
-  transform: translateY(-50%);
-  right: 18px;
-}
-
-.alert-validate:hover:before {
-  visibility: visible;
-  opacity: 1;
-}
-
-@media (max-width: 992px) {
-  .alert-validate::before {
-    visibility: visible;
-    opacity: 1;
-  }
-}
-
 [Color]*/ .cl0 {
   color: #fff;
 }
@@ -228,19 +142,6 @@ input.input100 {
   .parallax100 {
     background-attachment: inherit;
   }
-}
-
-.placeholder0::-webkit-input-placeholder {
-  color: #999999;
-}
-.placeholder0:-moz-placeholder {
-  color: #999999;
-}
-.placeholder0::-moz-placeholder {
-  color: #999999;
-}
-.placeholder0:-ms-input-placeholder {
-  color: #999999;
 }
 
 .overlay1 {
